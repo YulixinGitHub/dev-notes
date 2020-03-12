@@ -1,2 +1,1 @@
-# DevNotes
-Java码仔成长手记
+# Java码仔成长手记
