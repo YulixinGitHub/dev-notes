@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<title>css-key</title>
+		<style type="text/css">
+		/*
+		 * CSS引入：行间CSS；页面CSS；外部引入；
+		 */			
+			/*div-page{
+				width: 100px; 
+				height: 50px; 
+				background-color: blue;
+			}*/
+		</style>
+		<link rel="stylesheet" type="text/css" href="hello-css.css"/>
+	</head>
+	<body>
+		<!--<div style="width: 50px; height: 50px; background-color: red;">
+			
+		</div>-->
+		<div>css-link-demo selector-lable-demo</div>
+		<div id="only-id">selector-id-demo 1:1</div>
+		<div class="ClassSelectorDemo">selector-class-demo n:n</div>
+		<p>!important --> 行间样式 --> ID选择器 --> class选择器|属性选择器 --> 标签选择器 --> 通配符选择器</p>
+		<ol style="font-size: 24px;">
+			<li>!important --- Infinity</li>
+			<li>行间样式 --- 1000</li>
+			<li>id --- 100</li>
+			<li>class|属性|伪类 --- 10</li>
+			<li>标签|伪元素 --- 1</li>
+			<li>通配符 --- 0</li>
+		</ol>
+		<table border="1" cellspacing="1" cellpadding="5">
+			<tr>
+				<th>name</th>
+				<th>value</th>
+			</tr>
+			<tr>
+				<td>!important</td>
+				<td>Infinity</td>
+			</tr>
+			<tr>
+				<td>行间样式</td>
+				<td>1000</td>
+			</tr>
+		</table>
+	</body>
+</html>

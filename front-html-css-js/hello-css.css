@@ -1,0 +1,30 @@
+div{
+	width: 200px;
+	height: 100px;
+	background-color: green;
+	font-size:20px;
+}
+
+/*
+ * ID选择器
+ */
+#only-id{
+	width: 200px;
+	height: 20px;
+	background-color: yellow;
+}
+
+/*
+ * class选择器
+ */
+.ClassSelectorDemo {
+	width: 200px;
+	height: 20px;
+	background-color: goldenrod;
+}
+/*
+ * 通配符选择器
+ */
+* {
+	background-color: lightblue;
+}
